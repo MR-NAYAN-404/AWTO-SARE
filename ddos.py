@@ -58,7 +58,6 @@ M = Style.BRIGHT+Fore.MAGENTA
 W = Style.BRIGHT+Fore.WHITE
 colors=['\033[1;31m','\033[1;32m','\033[1;33m','\033[1;34m','\033[1;35m','\033[1;36m']
 W='\033[0m'
-os.system('clear')
 def check_intr():
     try:
         requests.get("https://motherfuckingwebsite.com")
@@ -96,6 +95,7 @@ lic = """
 # Api by Tbomb
 """
 text = ''
+os.system('clear')
 logo ="""
          \033[0;92m╔══════════════════════════════════════════════╗
          \033[0;32m║ ███    ██  \033[0;31m█████  \033[0;93m██    ██  \033[0;32m█████  \033[0;31m███    ██\033[0;92m ║
