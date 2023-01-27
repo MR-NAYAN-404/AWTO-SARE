@@ -426,6 +426,7 @@ def main():
 	os.system('clear')
 	exec(textexe)
 	ver_check()
+	os.system('clear')
 	print(logo)
 	print(Y)
 	os.system(f'dat=$(date) && echo {Y}  ✯ {W}STARTED ON : {C}$dat')
